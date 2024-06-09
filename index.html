@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Connect Four</title>
+</head>
+<body>
+    <h1>Connect Four</h1>
+
+    <form id="color-form">
+        <label for="player1-name"><b>Color for Player 1</b></label>
+        <input type="text" id="player1-name" name="player1-name" placeholder="Type your color">
+
+        <label for="player2-name"><b>Color for Player 2</b></label>
+        <input type="text" id="player2-name" name="player2-name" placeholder="Type your color">
+
+        <button type="submit"><b>START NEW GAME</b></button>
+    </form>
+
+    <div id="game">
+        <table id="board"></table>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
